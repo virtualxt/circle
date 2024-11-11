@@ -202,7 +202,7 @@ endif
 
 %.o: %.c
 	@echo "  CC    $@"
-	@$(CC) $(CFLAGS) -std=gnu99 -c -o $@ $<
+	@$(CC) $(CFLAGS) -std=gnu11 -c -o $@ $<
 
 %.o: %.cpp
 	@echo "  CPP   $@"
